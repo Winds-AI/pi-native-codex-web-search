@@ -1,0 +1,50 @@
+{
+  "name": "@winds-ai/pi-native-codex-web-search",
+  "version": "0.1.0",
+  "description": "Native web search for Pi using OpenAI's Responses API via Codex backend (same as Codex CLI)",
+  "type": "module",
+  "main": "./src/index.ts",
+  "files": [
+    "src/index.ts",
+    "src/auth.ts",
+    "src/constants.ts",
+    "src/search.ts",
+    "src/types.ts",
+    "README.md"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "pi": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-ai": "*",
+    "@mariozechner/pi-coding-agent": "*",
+    "@mariozechner/pi-tui": "*",
+    "@sinclair/typebox": "*"
+  },
+  "devDependencies": {
+    "@mariozechner/pi-ai": "^0.62.0",
+    "@mariozechner/pi-coding-agent": "^0.62.0",
+    "@mariozechner/pi-tui": "^0.62.0",
+    "@sinclair/typebox": "^0.34.48",
+    "@types/node": "^22.19.10",
+    "typescript": "^5.9.3"
+  },
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "web-search",
+    "codex",
+    "openai",
+    "search",
+    "browser"
+  ],
+  "license": "CC0-1.0",
+  "engines": {
+    "node": ">=22"
+  }
+}
