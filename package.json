@@ -20,19 +20,9 @@
       "./src/index.ts"
     ]
   },
-  "peerDependencies": {
-    "@mariozechner/pi-ai": "*",
-    "@mariozechner/pi-coding-agent": "*",
-    "@mariozechner/pi-tui": "*",
-    "@sinclair/typebox": "*"
-  },
   "devDependencies": {
-    "@mariozechner/pi-ai": "^0.62.0",
-    "@mariozechner/pi-coding-agent": "^0.62.0",
-    "@mariozechner/pi-tui": "^0.62.0",
-    "@sinclair/typebox": "^0.34.48",
-    "@types/node": "^22.19.10",
-    "typescript": "^5.9.3"
+    "@types/node": "^22.0.0",
+    "typescript": "^5.0.0"
   },
   "keywords": [
     "pi-package",
