@@ -1,6 +1,10 @@
-# pi-native-web-search
+# pi-native-codex-web-search
 
 Native web search for Pi using the same API and auth as Codex CLI.
+
+## Demo
+
+![demo](demo-short.mp4)
 
 ## Why Codex as the middleman?
 
@@ -50,7 +54,7 @@ So this extension calls the **exact same API** that Codex CLI uses, with the **e
 ## Install
 
 ```bash
-pi install /path/to/pi-native-web-search
+pi install git:github.com/Winds-AI/pi-native-codex-web-search
 ```
 
 ## Tool: `web_search`
@@ -71,4 +75,4 @@ codex login
 
 ## License
 
-MIT
+CC0-1.0
