@@ -1,6 +1,6 @@
 {
   "name": "@winds-ai/pi-native-codex-web-search",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Native web search for Pi using OpenAI's Responses API via Codex backend (same as Codex CLI)",
   "type": "module",
   "main": "./src/index.ts",
