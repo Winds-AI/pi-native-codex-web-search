@@ -2,6 +2,16 @@
 
 Native web search for Pi using the same API and auth as Codex CLI.
 
+## Install
+
+```bash
+pi install npm:@winds-ai/pi-native-codex-web-search
+```
+OR
+```bash
+pi install git:github.com/Winds-AI/pi-native-codex-web-search
+```
+
 ## Demo (2x speed)
 
 https://github.com/user-attachments/assets/fec455cc-70f5-4e48-885a-50543d1633ee
@@ -50,12 +60,6 @@ So this extension calls the **exact same API** that Codex CLI uses, with the **e
 
 - Node.js 22+
 - Codex CLI installed and authenticated (`codex login`)
-
-## Install
-
-```bash
-pi install git:github.com/Winds-AI/pi-native-codex-web-search
-```
 
 ## Tool: `web_search`
 
