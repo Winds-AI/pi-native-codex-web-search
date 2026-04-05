@@ -133,7 +133,10 @@ export async function executeWebSearch(
     if (!rawOutput) throw new Error("Empty response from API.");
 
     // Parse JSON response
-    const parsed = JSON.parse(rawOutput) as { summary: string; sources: WebSearchSource[] };
+    const parsed = JSON.parse(rawOutput) as { summary?: string; sources?: WebSearchSource[] };
+    if (!parsed.sources || !Array.isArray(parsed.sources)) {
+      throw new Error(`Invalid API response: ${rawOutput.slice(0, 200)}`);
+    }
     const sources = parsed.sources.slice(0, maxSources);
     const summary = parsed.summary.trim();
     if (!summary) throw new Error("Empty summary in response.");
