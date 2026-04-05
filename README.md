@@ -2,7 +2,7 @@
 
 Native web search for Pi using the same API and auth as Codex CLI.
 
-## Demo
+## Demo (2x speed)
 
 https://github.com/user-attachments/assets/fec455cc-70f5-4e48-885a-50543d1633ee
 
