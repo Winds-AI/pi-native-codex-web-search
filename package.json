@@ -10,7 +10,6 @@
     "src/constants.ts",
     "src/search.ts",
     "src/types.ts",
-    "demo-short.mp4",
     "README.md"
   ],
   "scripts": {
