@@ -5,6 +5,7 @@ Native web search for Pi using the same API and auth as Codex CLI.
 ## Demo
 
 ![demo](demo-short.mp4)
+*(2x speed, starting from 4s)*
 
 ## Why Codex as the middleman?
 
